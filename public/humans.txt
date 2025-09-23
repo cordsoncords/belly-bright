@@ -1,0 +1,13 @@
+# /public/humans.txt
+/* TEAM */
+Site: Belly Bright Christmas Lights
+Role: Design & Install of Christmas Lighting
+Location: Bell County, Texas (Temple, Belton, Killeen, Harker Heights)
+Contact: hello@yourdomain.com | (XXX) XXX-XXXX
+
+/* THANKS */
+Fonts: System + TailwindCSS
+Framework: React + React Router + TailwindCSS
+
+/* POLICY */
+We want to stay on the nice list, so we'll never share your info!

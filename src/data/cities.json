@@ -1,0 +1,97 @@
+[
+  {
+    "slug": "temple",
+    "name": "Temple",
+    "county": "Bell County",
+    "neighborhoods": [
+      "Lakewood Ranch",
+      "North Temple",
+      "Midway",
+      "Western Hills",
+      "Waterford",
+      "The Plains",
+      "Echo Village",
+      "Windmill Farms"
+    ]
+  },
+  {
+    "slug": "belton",
+    "name": "Belton",
+    "county": "Bell County",
+    "neighborhoods": [
+      "Three Creeks",
+      "High Crest",
+      "River Place",
+      "Liberty Valley",
+      "Morgan's Point Resort",
+      "Northcliffe"
+    ]
+  },
+  {
+    "slug": "killeen",
+    "name": "Killeen",
+    "county": "Bell County",
+    "neighborhoods": [
+      "Yowell Ranch",
+      "Bridgewood",
+      "Trimmier Estates",
+      "White Rock Estates",
+      "Goodnight Ranch",
+      "Saegert Ranch"
+    ]
+  },
+  {
+    "slug": "harker-heights",
+    "name": "Harker Heights",
+    "county": "Bell County",
+    "neighborhoods": [
+      "Skipcha Mountain Estates",
+      "Knights Ridge",
+      "Evergreen Estates",
+      "Wildwood Estates",
+      "The Grove"
+    ]
+  },
+  {
+    "slug": "nolanville",
+    "name": "Nolanville",
+    "county": "Bell County",
+    "neighborhoods": [
+      "Wildwood",
+      "Bella Charca",
+      "Cedar Ridge",
+      "Bridgeview"
+    ]
+  },
+  {
+    "slug": "salado",
+    "name": "Salado",
+    "county": "Bell County",
+    "neighborhoods": [
+      "Mill Creek",
+      "Amity Estates",
+      "Williams Addition",
+      "Salado Mills"
+    ]
+  },
+  {
+    "slug": "troy",
+    "name": "Troy",
+    "county": "Bell County",
+    "neighborhoods": [
+      "Turkey Creek Estates",
+      "Westwood",
+      "Sunset Acres"
+    ]
+  },
+  {
+    "slug": "little-river-academy",
+    "name": "Little River‑Academy",
+    "county": "Bell County",
+    "neighborhoods": [
+      "Academy Heights",
+      "Main Street District",
+      "River Bend"
+    ]
+  }
+]

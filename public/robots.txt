@@ -1,3 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for Belly Bright Christmas Lights
 User-agent: *
 Disallow:
+
+Sitemap: https://www.bellybrightchristmaslights.com/sitemap.xml
