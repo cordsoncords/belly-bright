@@ -17,15 +17,17 @@ export default function Hero({
     <section
       className="relative min-h-[680px] sm:min-h-[740px] md:min-h-[780px] lg:min-h-[860px] xl:min-h-[920px] flex items-center justify-center text-center overflow-hidden pt-[8rem] sm:pt-[9rem] md:pt-[10rem]"
     >
-      {/* Background image */}
-      <div
-        className="absolute inset-0 bg-center bg-cover"
-        style={{ backgroundImage: `url(${imageSrc})` }}
-        aria-hidden="true"
+      {/* Optimized background image as <img> for LCP */}
+      <img
+        src={imageSrc}
+        alt="Holiday lights on a house at night"
+        fetchpriority="high"
+        decoding="async"
+        className="absolute inset-0 w-full h-full object-cover -z-10"
       />
 
       {/* Overlay tint */}
-      <div className="absolute inset-0 bg-neutral-200/30 backdrop-blur-sm" />
+      <div className="absolute inset-0 bg-neutral-200/30 backdrop-blur-sm z-0" />
 
       {/* ❄️ Snowfall effect */}
       <Snowfall
