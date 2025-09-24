@@ -60,7 +60,7 @@ export default function About() {
           We started this business with one goal in mind: bring our community the best Christmas experience possible. We love the feeling of pulling up to a home or business that gives off the warm glow that only comes with this season, and we want to share that with you.
         </p>
         <p className="mt-4 text-black/80 leading-relaxed">
-          We’re proud to serve our neighbors with custom lighting displays—and if we get to play even a small part in your holiday traditions, we’re honored. For us, it’s about more than just lights. It’s about helping the season feel the way it should, so you can share it with the people who matter most.
+          We’re proud to serve our neighbors with custom lighting displays—and if we get to play even a small part in your holiday traditions, we’re honored. For us, it’s about more than just lights. It’s about helping make the season feel the way it should, so you can share it with the people who matter most.
         </p>
       </div>
     </div>
@@ -128,7 +128,7 @@ export default function About() {
       {[
         {
           k: "No Holiday Headaches",
-          v: "We are completely Turnkey! We take care of everything from the moment you accept your quote to the moment it’s time to break down and store your display.",
+          v: "We are completely turnkey! We take care of everything from the moment you accept your quote to the moment it’s time to break down and store your display.",
         },
         {
           k: "Installed by Professionals",
@@ -140,7 +140,7 @@ export default function About() {
         },
         {
           k: "Designed for Your Space",
-          v: "Each of our Christmas Light Displays are custom created to fit your home/business and preference. Go crazy — we dare you!",
+          v: "Each of our Christmas light displays are custom created to fit your home/business and preference. Go crazy — we dare you!",
         },
         {
           k: "Maintained All Season",

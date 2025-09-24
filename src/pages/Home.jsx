@@ -49,7 +49,7 @@ export default function Home() {
     <>
       <SEO
         title="Belly Bright Christmas Lights — Bell County, TX"
-        description="Holiday Cheer. Professionally Installed. Temple, Belton, Killeen & Harker Heights’ choice for Christmas light installation."
+        description="Holiday Cheer, Professionally Installed. Temple, Belton, Killeen & Harker Heights’ choice for Christmas light installation."
         canonical="/"
         jsonLd={[breadcrumbs, localBusinessJsonLd]}
         ogImage="/images/homehero.webp"
@@ -133,12 +133,12 @@ export default function Home() {
         {
           title: "No Holiday Headaches",
           icon: "🎄",
-          desc: "We are completely Turnkey! We take care of everything from quote to takedown.",
+          desc: "We are completely turnkey! We take care of everything from quote to takedown.",
         },
         {
           title: "Installed by Pros",
           icon: "🛠️",
-          desc: "Licensed, insured & trained pros handle your install with care & safety.",
+          desc: "Licensed, insured & trained professionals handle your display install with the utmost care.",
         },
         {
           title: "Highest Quality Lighting",
@@ -148,7 +148,7 @@ export default function Home() {
         {
           title: "Custom Design",
           icon: "🎨",
-          desc: "Each setup is custom-tailored to your home or business and personal taste.",
+          desc: "Each lighting display is custom-tailored to your home or business and your level of holiday spirit.",
         },
         {
           title: "Season-Long Maintenance",
@@ -158,7 +158,7 @@ export default function Home() {
         {
           title: "Removed & Stored",
           icon: "📦",
-          desc: "After the holidays, we take down & store your lights for next year.",
+          desc: "After the holidays, we take down & store your lights until next year.",
         },
       ].map((item) => (
         <div key={item.title} className="flip-card h-72">

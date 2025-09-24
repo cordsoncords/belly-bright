@@ -77,7 +77,7 @@ export default function ServiceAreas() {
             <div>
               <SectionTitle eyebrow="Cities We Serve" title="Proudly Serving Bell County,TX" />
               <p className="mt-4 text-black/80 leading-relaxed space-y-4">
-              From Temple and Belton to Killeen and Harker Heights, we make homes in Bell County shine extra bright for the holidays! Our team handles custom designs, professional installation, mid-season fixes, and display takedown. Want us to stash everything until next year? Great… we already do that too!.
+              From Temple and Belton to Killeen and Harker Heights, we make homes in Bell County shine extra bright for the holidays! Our team handles custom designs, professional installation, mid-season fixes, and display takedown. Want us to stash everything until next year? Great… we already do that too!
               </p>
               <p className="mt-4 text-black/80 leading-relaxed">
               Check out the locations below to explore service details, neighborhoods, and FAQs tailored to your city!

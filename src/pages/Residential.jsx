@@ -48,7 +48,7 @@ export default function Residential() {
       <Hero
         imageSrc="/images/residentialhero.webp"
         title="Residential Christmas Lighting in Bell County, TX"
-        subtitle="Custom designs. Pro installation. Safe takedown. Your one stop shop for holiday cheer."
+        subtitle="Custom designs. Professional installation. Safe takedown. Your one stop shop for holiday cheer."
         showButtons={false}
       />
 
@@ -63,10 +63,10 @@ export default function Residential() {
                         <span className="text-red-600">Without Lifting A Ladder</span>!
                       </h2>
                       <p className="text-lg text-black/80 leading-relaxed">
-                        There's nothing like coming home to a house that looks (and feels) like Christmas. At belly Bright Christmas Lights, we're in the business of makin g that moment happen- minus the stress, the ladders, and the tangled mess.
+                        There's nothing like coming home to a house that looks (and feels) like Christmas. At Belly Bright Christmas Lights, we're in the business of making that moment happen- minus the stress, the ladders, and the tangled mess.
                       </p>
                       <p className="text-lg text-black/80 leading-relaxed">
-                        Every home we light is custom-designed, safely AND professionally installed, and fully managed from start to finish. You don’t have to buy lights, figure out what goes where, or troubleshoot issues- sounds pretty great huh?  We handle everything from install, to take down, to storage, so you can enjoy the season the way it was meant to be enjoyed- stress free with the people you love!
+                        Every home we light is custom-designed, safely AND professionally installed, and fully managed from start to finish. You don’t have to buy lights, figure out what goes where, or troubleshoot issues- sounds pretty great, huh?  We handle everything from install, to take down, to storage, so you can enjoy the season the way it was meant to be enjoyed- stress free with the people you love!
                       </p>
                     </div>
                     <div className="flex justify-center">
