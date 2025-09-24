@@ -75,7 +75,7 @@ export default function Navbar() {
           {/* LEFT — Logo */}
           <Link to="/" onClick={() => setMobileOpen(false)}>
             <img
-              src="/images/Logo.png"
+              src="/images/Logo.webp"
               alt="Belly Bright Christmas Lights"
               className="h-[6.5rem] sm:h-[8rem] md:h-[10rem] lg:h-[11.5rem] xl:h-[12.5rem] 2xl:h-[13rem] w-auto"
             />

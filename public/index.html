@@ -14,11 +14,11 @@
     <link rel="manifest" href="/manifest.json" />
     <link rel="shortcut icon" href="/favicon.ico" />
 
-    <!-- Optional Android Icons (used by PWA or if you register for homescreen install) -->
+    <!-- Optional Android Icons -->
     <link rel="icon" type="image/png" sizes="192x192" href="/images/androidchrome192.png" />
     <link rel="icon" type="image/png" sizes="512x512" href="/images/androidchrome512.png" />
 
-    <!-- ✅ Preload LCP hero image for faster Largest Contentful Paint -->
+    <!-- ✅ Preload hero images -->
     <link rel="preload" as="image" href="/images/abouthero.webp" type="image/webp" />
     <link rel="preload" as="image" href="/images/homehero.webp" type="image/webp" />
     <link rel="preload" as="image" href="/images/commercialhero.webp" type="image/webp" />
@@ -29,11 +29,9 @@
     <link rel="preload" as="image" href="/images/residentialhero.webp" type="image/webp" />
     <link rel="preload" as="image" href="/images/serviceareahero.webp" type="image/webp" />
 
-
-
     <title>Belly Bright Christmas Lights</title>
 
-    <!-- ✅ Optimize Google Font loading (non-blocking) -->
+    <!-- ✅ Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -54,7 +52,7 @@
       />
     </noscript>
 
-    <!-- ✅ LocalBusiness JSON-LD (sitewide) -->
+    <!-- ✅ LocalBusiness JSON-LD -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -92,9 +90,49 @@
         ]
       }
     </script>
+
+    <!-- ✅ Facebook Pixel -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1078650917748817');
+      fbq('track', 'PageView');
+    </script>
+
+    <!-- ✅ Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HSYFZK4KYE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-HSYFZK4KYE');
+    </script>
+
+    <!-- ✅ Microsoft Clarity -->
+    <script>
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "tfdgoj53kj");
+    </script>
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- ✅ Facebook Pixel NoScript Fallback -->
+    <noscript>
+      <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1078650917748817&ev=PageView&noscript=1" />
+    </noscript>
+
     <div id="root"></div>
   </body>
 </html>
