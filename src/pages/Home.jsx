@@ -100,7 +100,7 @@ export default function Home() {
               </div>
               <div className="flex justify-center">
                 <img
-                  src="/images/about.webp"
+                  src="/images/homeabout.webp"
                   alt="About Belly Bright Christmas light services"
                   className="rounded-3xl shadow-xl max-h-[500px] w-auto object-contain"
                   loading="lazy"

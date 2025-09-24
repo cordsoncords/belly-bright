@@ -68,7 +68,7 @@ export default function ServiceAreas() {
           <div className="grid lg:grid-cols-2 gap-10 items-center">
             <div className="rounded-3xl overflow-hidden shadow-lg">
               <img
-                src="/images/about.jpg"
+                src="/images/serviceareasabout.jpg"
                 alt="Belly Bright team"
                 className="w-full h-full object-cover"
                 loading="lazy"

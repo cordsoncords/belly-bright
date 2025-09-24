@@ -71,9 +71,9 @@ export default function Residential() {
                     </div>
                     <div className="flex justify-center">
                       <img
-                        src="/images/about.jpg"
+                        src="/images/residentialabout.webp"
                         alt="About Belly Bright Christmas light services"
-                        className="rounded-3xl shadow-xl w-full h-80 object-cover"
+                        className="rounded-3xl shadow-xl max-h-[500px] w-auto object-contain"
                         loading="lazy"
                         decoding="async"
                       />

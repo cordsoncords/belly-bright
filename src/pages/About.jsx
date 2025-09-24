@@ -43,12 +43,13 @@ export default function About() {
 <section className="section">
   <Container>
     <div className="grid lg:grid-cols-2 gap-10 items-center">
-      <div className="rounded-3xl overflow-hidden shadow-lg">
+      <div className="flex justify-center">
         <img
-          src="/images/about.jpg"
+          src="/images/aboutabout.webp"
           alt="Belly Bright team"
-          className="w-full h-full object-cover"
+          className="rounded-3xl shadow-xl max-h-[500px] w-auto object-contain"
           loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
