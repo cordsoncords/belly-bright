@@ -1,17 +1,10 @@
-// src/pages/FAQ.jsx — Full City-Based SEO + Hero + CTA
+// src/pages/FAQ.jsx — Cleaned Single-FAQ Version
 
 import SEO from "../components/SEO";
 import Hero from "../components/Hero";
 import Container from "../components/Container";
 import SectionTitle from "../components/SectionTitle";
 import FadeInSection from "../components/FadeInSection";
-
-const cities = [
-  "Temple",
-  "Belton",
-  "Killeen",
-  "Harker Heights"
-];
 
 const faqs = [
   {
@@ -99,16 +92,14 @@ const faqs = [
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "mainEntity": cities.flatMap((city) =>
-    faqs.map((faq) => ({
-      "@type": "Question",
-      "name": `${faq.q} (${city})`,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": `${faq.a}`
-      }
-    }))
-  )
+  "mainEntity": faqs.map((faq) => ({
+    "@type": "Question",
+    "name": faq.q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.a
+    }
+  }))
 };
 
 export default function FAQ() {
@@ -133,34 +124,32 @@ export default function FAQ() {
         imageSrc="/images/faqhero.webp"
       />
 
-      {cities.map((city) => (
-        <FadeInSection key={city}>
-          <section className="section">
-            <Container className="max-w-5xl">
-              <SectionTitle
-                eyebrow={`${city} FAQ`}
-                title={`Christmas Light Installation in ${city}`}
-                className="text-center"
-              />
-              <div className="mt-6 space-y-4">
-                {faqs.map((item, idx) => (
-                  <details
-                    key={idx}
-                    className="rounded-xl bg-white shadow p-4 text-left"
-                  >
-                    <summary className="font-bold cursor-pointer">
-                      {item.q}
-                    </summary>
-                    <p className="mt-2 text-black/80">
-                      {item.a}
-                    </p>
-                  </details>
-                ))}
-              </div>
-            </Container>
-          </section>
-        </FadeInSection>
-      ))}
+      <FadeInSection>
+        <section className="section">
+          <Container className="max-w-5xl">
+            <SectionTitle
+              eyebrow="Frequently Asked"
+              title="Christmas Light Installation Questions"
+              className="text-center"
+            />
+            <div className="mt-6 space-y-4">
+              {faqs.map((item, idx) => (
+                <details
+                  key={idx}
+                  className="rounded-xl bg-white shadow p-4 text-left"
+                >
+                  <summary className="font-bold cursor-pointer">
+                    {item.q}
+                  </summary>
+                  <p className="mt-2 text-black/80">
+                    {item.a}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </Container>
+        </section>
+      </FadeInSection>
 
       <FadeInSection>
         <section className="section text-center">
