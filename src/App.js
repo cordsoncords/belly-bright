@@ -2,8 +2,6 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import FestiveWrapper from "./components/FestiveWrapper";
 
@@ -20,12 +18,14 @@ import FAQ from "./pages/FAQ";
 import NotFound from "./pages/NotFound";
 import GetAFastQuote from "./pages/GetAFastQuote";
 
-// Helper wrapper to access router location
+// Components (IMPORTANT: move these inside AppContent to get access to location)
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
 function AppContent() {
   const location = useLocation();
   const isQuotePage = location.pathname === "/get-a-fast-quote";
 
-  // Optional: scroll to top on location change
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
