@@ -77,7 +77,7 @@ export default function Footer() {
                 <FaInstagram size={32} />
               </a>
               <a
-                href="https://youtube.com/bellybrightchristmaslights"
+                href="https://youtube.com/@bellybrightchristmaslights"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white/80 transition"

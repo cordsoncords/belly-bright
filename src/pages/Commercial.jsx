@@ -140,7 +140,7 @@ export default function Commercial() {
                           Design, install, maintenance, and takedown included.
                         </p>
                         <div className="mt-6">
-                          <Link to="/contact" className="btn-cta-lg">
+                          <Link to="/get-a-fast-quote" className="btn-cta-lg">
                             Get A Fast Quote
                           </Link>
                         </div>

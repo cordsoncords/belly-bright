@@ -162,7 +162,7 @@ export default function FAQ() {
                 Design, install, maintenance, and takedown included.
               </p>
               <div className="mt-6">
-                <a href="/contact" className="btn-cta-lg">
+                <a href="/get-a-fast-quote" className="btn-cta-lg">
                   Get A Fast Quote
                 </a>
               </div>

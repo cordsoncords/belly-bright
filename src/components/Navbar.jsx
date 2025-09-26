@@ -130,7 +130,7 @@ export default function Navbar() {
           {/* RIGHT — CTA */}
           <div className="hidden xl:block">
             <NavLink
-              to="/contact"
+              to="/get-a-fast-quote"
               className={`wiggle-every-7s inline-block px-6 py-3 text-lg rounded-2xl font-bold text-white bg-red-600 hover:bg-red-700 shadow-lg hover:shadow-xl transition ${!solidBg ? "text-shadow-soft" : ""}`}
             >
               Get A Fast Quote
@@ -168,20 +168,20 @@ export default function Navbar() {
             <MobileLink to="/contact" onClick={() => setMobileOpen(false)}>Contact</MobileLink>
 
             <NavLink
-              to="/contact"
+              to="/get-a-fast-quote"
               className="mt-3 inline-block w-full text-center btn-cta-lg"
               onClick={() => setMobileOpen(false)}
             >
               Get A Fast Quote
             </NavLink>
 
-            <NavLink
-              to="/contact"
+            <a
+              href="tel:+12542523559"
               className="mt-3 inline-block w-full text-center btn-cta-outline"
               onClick={() => setMobileOpen(false)}
             >
              Call Now
-            </NavLink>
+            </a>
 
           </div>
         )}

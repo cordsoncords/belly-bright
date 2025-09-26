@@ -66,12 +66,13 @@ export default function ServiceAreas() {
       <section className="section">
         <Container>
           <div className="grid lg:grid-cols-2 gap-10 items-center">
-            <div className="rounded-3xl overflow-hidden shadow-lg">
+            <div className="flex justify-center">
               <img
-                src="/images/serviceareasabout.jpg"
+                src="/images/serviceareasabout.webp"
                 alt="Belly Bright team"
-                className="w-full h-full object-cover"
+                className="rounded-3xl shadow-xl max-h-[500px] w-auto object-contain"
                 loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
@@ -187,7 +188,7 @@ export default function ServiceAreas() {
                           Design, install, maintenance, and takedown included.
                         </p>
                         <div className="mt-6">
-                          <Link to="/contact" className="btn-cta-lg">
+                          <Link to="/get-a-fast-quote" className="btn-cta-lg">
                             Get A Fast Quote
                           </Link>
                         </div>

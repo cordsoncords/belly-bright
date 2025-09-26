@@ -17,6 +17,7 @@ import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
 import NotFound from "./pages/NotFound";
+import GetAFastQuote from "./pages/GetAFastQuote";
 
 export default function App() {
   return (
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/get-a-fast-quote" element={<GetAFastQuote />} />
         </Routes>
       </FestiveWrapper>
 
