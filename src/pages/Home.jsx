@@ -68,7 +68,7 @@ export default function Home() {
           </>
         }
         subtitle="Serving Temple, Belton, Killeen, and Harker Heights with full-service Christmas light installation, design, install, takedown, and storage."
-        primaryCta={{ to: "/contact", label: "Get A Fast Quote" }}
+        primaryCta={{ to: "/get-a-fast-quote", label: "Get A Fast Quote" }}
         secondaryCta={{ to: "/services", label: "See Services" }}
         showButtons
       />
