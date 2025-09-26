@@ -3,8 +3,6 @@ import Container from "./Container";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa6";
 
 
-
-
 export default function Footer() {
   return (
     <footer className="bg-holidayGreen text-white mt-24">

@@ -1,5 +1,6 @@
 // src/App.js
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -19,11 +20,19 @@ import FAQ from "./pages/FAQ";
 import NotFound from "./pages/NotFound";
 import GetAFastQuote from "./pages/GetAFastQuote";
 
-export default function App() {
+// Helper wrapper to access router location
+function AppContent() {
+  const location = useLocation();
+  const isQuotePage = location.pathname === "/get-a-fast-quote";
+
+  // Optional: scroll to top on location change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
-    <BrowserRouter>
-      <ScrollToTop />
-      <Navbar />
+    <>
+      {!isQuotePage && <Navbar />}
 
       <FestiveWrapper>
         <Routes>
@@ -36,12 +45,21 @@ export default function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />
-          <Route path="*" element={<NotFound />} />
           <Route path="/get-a-fast-quote" element={<GetAFastQuote />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </FestiveWrapper>
 
-      <Footer />
+      {!isQuotePage && <Footer />}
+    </>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <ScrollToTop />
+      <AppContent />
     </BrowserRouter>
   );
 }
