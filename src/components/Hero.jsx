@@ -11,7 +11,7 @@ export default function Hero({
   ),
   subtitle = "Temple, Belton, Killeen, and Harker Heights’ choice for Christmas Light Installation.",
   showButtons = true,
-  imageSrc = "/images/hero.jpg",
+  imageSrc = "/images/homehero.webp",
 }) {
   return (
     <section
@@ -55,7 +55,7 @@ export default function Hero({
         {showButtons && (
           <div className="mt-10 flex flex-col sm:flex-row gap-6 justify-center">
             <Link
-              to="/contact"
+              to="/get-a-fast-quote"
               className="btn-cta-lg text-xl px-12 py-5 transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-lg"
             >
               Get A Fast Quote
